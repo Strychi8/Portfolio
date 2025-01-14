@@ -268,9 +268,6 @@ html{
     display: inline-block;
     text-decoration: none;
 }
-.contacto a:hover{
-    background-color: #1CB698;
-}
 /* footer */
 footer{
     background-color: #1e2326;

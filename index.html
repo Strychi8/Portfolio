@@ -1,181 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <!-- MENU ENCABEZADO -->
-     <div class="contenedor-header">
-        <header>
-           <div class="logo">
-             <a href="#">Strychi</a>
-           </div>
-        <nav id="nav">
+   <!-- MENU ENCABEZADO -->
+   <div class="contenedor-header">
+      <header>
+         <div class="logo">
+            <a href="#">Strychi</a>
+         </div>
+         <nav id="nav">
             <ul>
-                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
-                <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
-                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+               <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+               <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+               <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+               <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+               <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
             </ul>
-        </nav>
-        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+         </nav>
+         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i>
-        </div>
-        </header>
+         </div>
+      </header>
 
-     </div>
+   </div>
 
-     <!-- SECCION INICIO -->
-     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/hacker-room.jpg" alt="">
-            </div>
-            <h1>TOMAS STRYCHARSKI</h1>
-            <h2>Desarrollador Frontend y Backend</h2>
-            
-        </div>
-     </section>
+   <!-- SECCION INICIO -->
+   <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+         <div class="contenedor-img">
+            <img src="img/hacker-room.jpg" alt="">
+         </div>
+         <h1>TOMAS STRYCHARSKI</h1>
+         <h2>Desarrollador Full-Stack</h2>
 
-     <!-- SECCION SOBRE MI -->
-      <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mi</h2>
-            <p><span>Buenas, Soy Tomas.</span> Apasionado por crear paginas web en base a series, peliculas, videojuegos, etc.</p>
-            
-            <button>
-               <a href="pdf/OO2 2021 Git  Github.pdf" download="CV-Strycharski-Tomas">
-                Descargar CV <i class="fa-solid fa-download"></i>
-               </a>
-                <span class="overlay"></span>
-               
-            </button>
-        </div>
-      </section>
-      <!-- SECCION HABILIDADES -->
-      <section class="habilidades" id="habilidades">
+      </div>
+   </section>
 
-         <div class="contenido-seccion">
-            <h2>Habilidades</h2>
+   <!-- SECCION SOBRE MI -->
+   <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+         <h2>Sobre Mi</h2>
+         <p><span>Buenas, Soy Tomas.</span> Apasionado por crear paginas web en base a series, peliculas, videojuegos,
+            etc.</p>
 
-            <div class="fila">
-                <!-- Habilidades Tecnicas -->
-      
-                 <div class="habilidad">
-                  <div class="first-set animate__animated animate__pulse">
-                     <img
-                       src="icons/icons8-html-5.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                    <img
-                       src="icons/icons8-css3.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                       src="icons/icons8-javascript.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                       src="icons/icons8-git.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                      src="icons/icons8-visual-studio-code-2019.svg"
-                      alt=""
-                      loading="lazy"
-                      class="icon icon-card"
-                     />
-                     <img
-                      src="icons/icons8-mysql.svg"
-                      alt=""
-                      loading="lazy"
-                      class="icon icon-card"
-                     />
-                  </div>
+         <button>
+            <a href="pdf/OO2 2021 Git  Github.pdf" download="CV-Strycharski-Tomas">
+               Descargar CV <i class="fa-solid fa-download"></i>
+            </a>
+            <span class="overlay"></span>
 
-                  <div class="second-set animate__animated animate__pulse">
-                     <img
-                       src="icons/icons8-trello.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                    <img
-                       src="icons/icons8-reaccionar-nativo.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                       src="icons/icons8-logotipo-de-java-coffee-cup.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                       src="icons/icons8-logotipo-de-primavera.svg"
-                       alt=""
-                       loading="lazy"
-                       class="icon icon-card"
-                      />
-                      <img
-                      src="icons/icons8-python.svg"
-                      alt=""
-                      loading="lazy"
-                      class="icon icon-card"
-                     />
-                     <img
-                      src="icons/icons8-django.svg"
-                      alt=""
-                      loading="lazy"
-                      class="icon icon-card"
-                     />
-   
+         </button>
+      </div>
+   </section>
+   <!-- SECCION HABILIDADES -->
+   <section class="habilidades" id="habilidades">
 
-                  </div>
+      <div class="contenido-seccion">
+         <h2>Habilidades</h2>
 
+         <div class="fila">
+            <!-- Habilidades Tecnicas -->
 
+            <div class="habilidad">
+               <div class="first-set animate__animated animate__pulse">
+                  <img src="icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-logotipo-de-java-coffee-cup.svg" alt="" loading="lazy"
+                     class="icon icon-card" />
+                  <img src="icons/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
+
+                  <img src="icons/icons8-mysql.svg" alt="" loading="lazy" class="icon icon-card" />
+               </div>
+
+               <div class="second-set animate__animated animate__pulse">
+                  <img src="icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-logotipo-de-primavera.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-django.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-reaccionar-nativo.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-trello.svg" alt="" loading="lazy" class="icon icon-card" />
+                  <img src="icons/icons8-visual-studio-code-2019.svg" alt="" loading="lazy" class="icon icon-card" />
 
                </div>
+
+
+
             </div>
          </div>
-      </section>
-      
-      <!-- SECCION PROYECTOS -->
-      <section id="proyectos" class="proyectos">
-        <div class="contenido-seccion">
+      </div>
+   </section>
 
-          <h2>PROYECTOS</h2>
-          <div class="galeria">
+   <!-- SECCION PROYECTOS -->
+   <section id="proyectos" class="proyectos">
+      <div class="contenido-seccion">
 
-             <div class="proyecto">
-                <img src="img/crud.png" alt="">
-                <div class="overlay">
-                   <h3>TO-DO List</h3>
-                   <p>Fotografia</p>
-                </div>
-             </div>
+         <h2>PROYECTOS</h2>
+         <div class="galeria">
 
-             <div class="proyecto">
-               <a href="https://github.com/Strychi8/grupo-9-OO2-2023"><img src="img/crud.png" alt="">
+            <div class="proyecto">
+               <img src="img/crud.png" alt="">
                <div class="overlay">
-                  <h3>Smart City</h3>
+                  <h3>TO-DO List</h3>
                   <p>Fotografia</p>
                </div>
-            </a>
+            </div>
+
+            <div class="proyecto">
+               <a href="https://github.com/Strychi8/grupo-9-OO2-2023"><img src="img/crud.png" alt="">
+                  <div class="overlay">
+                     <h3>Smart City</h3>
+                     <p>Fotografia</p>
+                  </div>
+               </a>
             </div>
 
             <div class="proyecto">
@@ -186,48 +132,54 @@
                </div>
             </div>
 
-          </div>
-        </div>
-      </section>
+         </div>
+      </div>
+   </section>
 
-      <!-- SECCION CONTACTO -->
-      <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-          <h2>CONTACTO</h2>
-           
-          <ul>
+   <!-- SECCION CONTACTO -->
+   <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+         <h2>CONTACTO</h2>
+
+         <ul>
             <li>
                <strong>Email</strong>
-               tomas2000T@gmail.com
+               <a href="mailto:tomas2000t@gmail.com"><img
+                     src="https://img.shields.io/badge/tomas2000T@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
             </li>
             <li>
                <strong>Telefono</strong>
-               1123463900
+               <img
+                  src="https://img.shields.io/badge/1123463900-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
             </li>
 
             <li>
                <strong>Github</strong>
-               <a href="https://github.com/Strychi8"><i class="fa-brands fa-github"></i></a>
+               <a href="https://github.com/Strychi8"><img
+                     src="https://img.shields.io/badge/Tomas Strycharski-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+               </a>
             </li>
 
             <li>
-               <strong>Linkedin</strong>
-                  <a href="https://www.linkedin.com/in/tomas-strycharski-9a369021a/"><i class="fa-brands fa-linkedin-in"></i></a>      
+               <strong>LinkedIn</strong>
+               <a href="https://www.linkedin.com/in/tomas-strycharski-9a369021a/"><img
+                     src="https://img.shields.io/badge/Tomas Strycharski-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
             </li>
-          </ul>
+         </ul>
 
-        </div>
+      </div>
 
-      </section>
+   </section>
 
-      <!-- footer -->
-       <footer>
-         <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-       </footer>
+   <!-- footer -->
+   <footer>
+      <a href="#inicio" class="arriba">
+         <i class="fa-solid fa-angles-up"></i>
+      </a>
+   </footer>
 
-       <script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
-</html>
 
+</html>
