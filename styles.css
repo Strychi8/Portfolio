@@ -108,7 +108,6 @@ html{
 }
 .sobremi .contenido-seccion p{
     font: 18px;
-    text-align: center;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -147,7 +146,7 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-/* Seccion Habilidades*/
+/* SECCION HABILIDADES */
 .habilidades{
     background-color: #252A2E;
     color: #fff;
@@ -236,6 +235,9 @@ html{
 .proyectos .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+.proyectos .galeria .proyecto a{
+    color: white;
+}
 /* SECCION CONTACTO */
 .contacto{
     background-color: #252A2E;
@@ -268,7 +270,7 @@ html{
     display: inline-block;
     text-decoration: none;
 }
-/* footer */
+/* FOOTER */
 footer{
     background-color: #1e2326;
     color: #fff;
